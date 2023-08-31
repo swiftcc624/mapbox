@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Create a hover effect</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1Ijoic3dpZnRhaTYyNCIsImEiOiJjbGlvajJpZm8xYXN0M3BuemF2a3Nlb3B0In0.60uQwvZGNwAU4kARgeSgkQ";
+
+      const blankStyle = {
+        version: 8,
+        name: "Blank",
+        sprite: "file://roblabs.com/sprite",
+        glyphs: "file://roblabs.com/fonts/mapbox/{fontstack}/{range}.pbf",
+        id: "blank",
+        sources: {},
+        layers: [
+          {
+            id: "background",
+            type: "background",
+            paint: { "background-color": "rgba(255,255,255,1)" },
+          },
+        ],
+      };
+      const map = new mapboxgl.Map({
+        container: "map",
+        // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+        // style: blankStyle,
+        style: "mapbox://styles/mapbox/light-v10",
+
+        // style: "mapbox://styles/mapbox/streets-v11",
+        center: [-100.486052, 37.830348],
+        zoom: 4,
+        minZoom: 3, // Minimum zoom level
+        maxZoom: 5, // Maximum zoom level
+      });
+      let hoveredPolygonId = null;
+
+      map.on("load", () => {
+        map.addSource("merged", {
+          type: "geojson",
+          data: "./merged_simple.geojson",
+        });
+
+        map.addSource("state-labels", {
+          type: "geojson",
+          data: "merged_points.geojson",
+        });
+
+        map.addLayer({
+          id: "merged",
+          type: "fill",
+          source: "merged",
+          layout: {},
+          paint: {
+            "fill-color": "#627BC1",
+            "fill-opacity": [
+              "case",
+              ["boolean", ["feature-state", "hover"], false],
+              1,
+              0,
+            ],
+          },
+        });
+
+        map.addLayer({
+          id: "state-names",
+          type: "symbol",
+          source: "state-labels",
+          layout: {
+            "text-field": ["get", "NAME_1"], // Assuming 'name' is the property in your data source that has the state name
+            "text-size": 14,
+            "text-allow-overlap": false, // Ensures text doesn't overlap with other text
+            "text-ignore-placement": false, // Text will respect other text's placement
+            "symbol-placement": "point", // Will place labels based on a central point
+            "symbol-spacing": 250, // Increase or adjust for controlling space between repeated symbols/labels
+            "text-max-width": 8, // This can help in ensuring state names aren't broken up into multiple lines
+          },
+          paint: {
+            "text-color": "red",
+            "text-opacity": [
+              "case",
+              ["boolean", ["feature-state", "hover"], false],
+              1,
+              0,
+            ],
+          },
+        });
+
+        // map.addLayer({
+        //   id: "merged-borders",
+        //   type: "line",
+        //   source: "merged",
+        //   layout: {},
+        //   paint: {
+        //     "line-color": "#627BC1",
+        //     "line-width": 2,
+        //   },
+        // });
+
+        // When the user moves their mouse over the state-fill layer, we'll update the
+        // feature state for the feature under the mouse.
+        // map.on("mousemove", "state-fills", (e) => {
+        //   if (e.features.length > 0) {
+        //     if (hoveredPolygonId !== null) {
+        //       map.setFeatureState(
+        //         { source: "states", id: hoveredPolygonId },
+        //         { hover: false }
+        //       );
+        //     }
+        //     hoveredPolygonId = e.features[0].id;
+        //     map.setFeatureState(
+        //       { source: "states", id: hoveredPolygonId },
+        //       { hover: true }
+        //     );
+        //   }
+        // });
+
+        // When the mouse leaves the state-fill layer, update the feature state of the
+        // previously hovered feature.
+        // map.on("mouseleave", "state-fills", () => {
+        //   if (hoveredPolygonId !== null) {
+        //     map.setFeatureState(
+        //       { source: "states", id: hoveredPolygonId },
+        //       { hover: false }
+        //     );
+        //   }
+        //   hoveredPolygonId = null;
+        // });
+
+        map.on("click", "merged", (e) => {
+          if (hoveredPolygonId !== null) {
+            map.setFeatureState(
+              { source: "merged", id: hoveredPolygonId },
+              { hover: false }
+            );
+            map.setFeatureState(
+              { source: "state-labels", id: hoveredPolygonId },
+              { hover: false }
+            );
+          }
+
+          hoveredPolygonId = e.features[0].id;
+
+          map.setFeatureState(
+            { source: "merged", id: hoveredPolygonId },
+            { hover: true }
+          );
+          map.setFeatureState(
+            { source: "state-labels", id: hoveredPolygonId },
+            { hover: true }
+          );
+
+          new mapboxgl.Popup()
+            .setLngLat(e.lngLat)
+            .setHTML("HTML Here")
+            .addTo(map);
+        });
+      });
+    </script>
+  </body>
+</html>

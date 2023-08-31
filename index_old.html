@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Sales Map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #salespersons {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='map'></div>
+    <div id='salespersons'></div>
+    <script>
+        function getCanadaProvinceFullName(abbr) {
+            const provinces = {
+                "AB": "Alberta",
+                "BC": "British Columbia",
+                "MB": "Manitoba",
+                "NB": "New Brunswick",
+                "NL": "Newfoundland and Labrador",
+                "NT": "Northwest Territories",
+                "NS": "Nova Scotia",
+                "NU": "Nunavut",
+                "ON": "Ontario",
+                "PE": "Prince Edward Island",
+                "QC": "Quebec",
+                "SK": "Saskatchewan",
+                "YT": "Yukon"
+            };
+            return provinces[abbr];
+        }
+
+        function getCanadaProvinceFullNameFrench(abbr) {
+            const provinces = {
+                "AB": "Alberta",
+                "BC": "Colombie-Britannique",
+                "MB": "Manitoba",
+                "NB": "Nouveau-Brunswick",
+                "NL": "Terre-Neuve-et-Labrador",
+                "NT": "Territoires du Nord-Ouest",
+                "NS": "Nouvelle-Écosse",
+                "NU": "Nunavut",
+                "ON": "Ontario",
+                "PE": "Île-du-Prince-Édouard",
+                "QC": "Québec",
+                "SK": "Saskatchewan",
+                "YT": "Yukon"
+            };
+            return provinces[abbr];
+        }
+
+
+        function getUSAStateFullName(abbr) {
+            const states = {
+                "AL": "Alabama",
+                "AK": "Alaska",
+                "AZ": "Arizona",
+                "AR": "Arkansas",
+                "CA": "California",
+                "CO": "Colorado",
+                "CT": "Connecticut",
+                "DE": "Delaware",
+                "FL": "Florida",
+                "GA": "Georgia",
+                "HI": "Hawaii",
+                "ID": "Idaho",
+                "IL": "Illinois",
+                "IN": "Indiana",
+                "IA": "Iowa",
+                "KS": "Kansas",
+                "KY": "Kentucky",
+                "LA": "Louisiana",
+                "ME": "Maine",
+                "MD": "Maryland",
+                "MA": "Massachusetts",
+                "MI": "Michigan",
+                "MN": "Minnesota",
+                "MS": "Mississippi",
+                "MO": "Missouri",
+                "MT": "Montana",
+                "NE": "Nebraska",
+                "NV": "Nevada",
+                "NH": "New Hampshire",
+                "NJ": "New Jersey",
+                "NM": "New Mexico",
+                "NY": "New York",
+                "NC": "North Carolina",
+                "ND": "North Dakota",
+                "OH": "Ohio",
+                "OK": "Oklahoma",
+                "OR": "Oregon",
+                "PA": "Pennsylvania",
+                "RI": "Rhode Island",
+                "SC": "South Carolina",
+                "SD": "South Dakota",
+                "TN": "Tennessee",
+                "TX": "Texas",
+                "UT": "Utah",
+                "VT": "Vermont",
+                "VA": "Virginia",
+                "WA": "Washington",
+                "WV": "West Virginia",
+                "WI": "Wisconsin",
+                "WY": "Wyoming"
+            };
+            return states[abbr];
+        }
+
+
+        function getSalespersonFromRegion(regionFullName, country) {
+            for (const salesperson in salespersonData) {
+                const regions = salespersonData[salesperson].regions;
+
+                if (regions.hasOwnProperty(country)) {
+                    const regionList = regions[country];
+                    for (const region of regionList) {
+                        let fullName = ''
+                        if (country === 'Canada') {
+                            fullName = getCanadaProvinceFullName(region);
+                        } else if (country === 'USA') {
+                            fullName = getUSAStateFullName(region);
+                        }
+                        if (fullName === regionFullName) {
+                            return salespersonData[salesperson].name;
+                        }
+                    }
+                }
+            }
+
+            return null; // Return null if no salesperson is found for the given region
+        }
+
+        salespersonData = {
+            "April": {
+                "name": "April",
+                "color": "#B4629A",
+                "regions": {
+                    "Canada": [
+                        "AB",
+                        "BC",
+                        "MB",
+                        "SK",
+                    ]
+                }
+            },
+            "Irene": {
+                "name": "Irene",
+                "color": "blue",
+                "regions": {
+                    "Canada": [
+                        "ON"
+                    ]
+                }
+            },
+            "Gaetan": {
+                "name": "Gaetan",
+                "color": "#93CEE2",
+                "regions": {
+                    "Canada": [
+                        "QC"
+                    ]
+                }
+            },
+            "Krista": {
+                "name": "Krista",
+                "color": "#3E66A0",
+                "regions": {
+                    "USA": [
+                        "OR",
+                        "CA",
+                        "NV",
+                        "TX",
+                        "OK",
+                        "AR",
+                        "MS",
+                        "LA",
+                        "TN",
+                        "AL",
+                        "GA",
+                        "SC",
+                        "FL"
+                    ]
+                }
+            },
+            "Jose": {
+                "name": "Jose",
+                "color": "#92B839",
+                "regions": {
+                    "USA": [
+                        "MT",
+                        "ID",
+                        "UT",
+                        "AZ",
+                        "WY",
+                        "CO",
+                        "NM",
+                        "ND",
+                        "SD",
+                        "NE",
+                        "KS",
+                        "MN",
+                        "IA",
+                        "MO",
+                        "WI",
+                        "IL",
+                        "IN"
+                    ]
+                }
+            },
+            "Michelle": {
+                "name": "Michelle",
+                "color": "#F6AB39",
+                "regions": {
+                    "Canada": [
+                        "BC",
+                        "PEI",
+                        "NFL",
+                        "NS",
+                        "NB"
+                    ],
+                    "USA": [
+                        "AK",
+                        "WA",
+                        "MI",
+                        "OH",
+                        "WV",
+                        "KY",
+                        "VA",
+                        "NC"
+                    ]
+                }
+            },
+            "Jonathan": {
+                "name": "Jonathan",
+                "color": "#E35C2F",
+                "regions": {
+                    "USA": [
+                        "ME",
+                        "VT",
+                        "NH",
+                        "MA",
+                        "CT",
+                        "NJ",
+                        "DE",
+                        "NY",
+                        "PA",
+                        "MD"
+                    ]
+                }
+            }
+        }
+
+        function getUSAColorExpression() {
+            const stateSalesData = {};
+            Object.keys(salespersonData).forEach(personName => {
+                const person = salespersonData[personName];
+                if (person.regions.USA) {
+                    person.regions.USA?.forEach(stateAbbr => {
+                        const stateName = getUSAStateFullName(stateAbbr);
+                        stateSalesData[stateName] = person.color;
+                    });
+                }
+                
+            });
+
+            const stateNames = Object.keys(stateSalesData).sort();
+
+            const stateColorPairs = stateNames.map(stateName => {
+                return [stateName, stateSalesData[stateName] || '#ccc'];
+            }).flat();
+
+            const matchExpr = ['match', ['get', 'NAME']].concat(stateColorPairs);
+
+            return matchExpr
+        }
+
+        function getCanadaColorExpression() {
+            const provinceSalesData = {};
+            Object.keys(salespersonData).forEach(personName => {
+                const person = salespersonData[personName];
+                if (person.regions.Canada) {
+                    person.regions.Canada?.forEach(provinceCode => {
+                        const provinceName = getCanadaProvinceFullName(provinceCode);
+                        // const provinceName = getCanadaProvinceFullNameFrench(provinceCode);
+                        provinceSalesData[provinceName] = person.color;
+                    });
+                }
+            });
+
+            const provinceNames = Object.keys(provinceSalesData).sort();
+
+            const provinceColorPairs = provinceNames.map(provinceName => {
+                // return [provinceName, provinceSalesData[provinceName] || '#ccc'];
+                return [['in', provinceName, ['get', 'prov_name_en']], provinceSalesData[provinceName] || '#ccc']
+            }).flat();
+
+            // const matchExpr = ['match',  ['get', 'prov_name_fr']   ].concat(provinceColorPairs);
+            const matchExpr = ['case'].concat(provinceColorPairs);
+
+            return matchExpr;
+        }
+
+        // Initialize the map
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWFkZWxldmF0b3IiLCJhIjoiY2xmanU5b3h0MDRnMjN3b3h1azVvemJ1bCJ9.uM_A-X5QkxpAs7mu-0p8hw';
+
+        const blankStyle = {
+            version: 8,
+            name: "Blank",
+            sprite: "file://roblabs.com/sprite",
+            glyphs: "file://roblabs.com/fonts/mapbox/{fontstack}/{range}.pbf",
+            id: "blank",
+            sources: {},
+            layers: [{ id: "background", type: "background", paint: { "background-color": "rgba(255,255,255,1)" } }]
+        }
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: blankStyle,
+            center: [-95.7129, 37.0902], // The longitude and latitude coordinates of the center point (USA)
+            zoom: 1 // The initial zoom level
+        });
+
+
+        // Add the GeoJSON data to the map
+        map.on('load', function () {
+            map.addSource('usa', {
+                type: 'geojson',
+                data: './usa.geojson'
+            });
+
+            map.addSource('ca', {
+                type: 'geojson',
+                data: './ca.geojson'
+            });
+
+            // Add a fill layer using the GeoJSON data
+            map.addLayer({
+                id: 'usa-layer',
+                type: 'fill',
+                source: 'usa',
+                paint: {
+                    'fill-color': [...getUSAColorExpression(), '#ccc'],
+                    'fill-opacity': 1,
+                    'fill-outline-color': 'rgba(0,0,0,0.1)'
+                }
+            });
+
+            map.addLayer({
+                id: 'ca-layer',
+                type: 'fill',
+                source: 'ca',
+                paint: {
+                    'fill-color': [...getCanadaColorExpression(), '#ccc'],
+                    'fill-opacity': 1,
+                    'fill-outline-color': 'rgba(0,0,0,0.1)'
+                }
+            });
+
+
+            // Add popup for salesperson name
+            map.on('click', 'usa-layer', function (e) {
+                const regionFullName = e.features[0].properties.NAME;
+              new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(getSalespersonFromRegion(regionFullName, 'USA') || `Not found: ${regionFullName}`)
+                .addTo(map);
+            });
+            map.on('click', 'ca-layer', function (e) {
+                const prov_name_en = JSON.parse(e.features[0].properties.prov_name_en)
+                const regionFullName = prov_name_en[0];
+
+              new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(getSalespersonFromRegion(regionFullName, 'Canada') || `Not found: ${regionFullName}`)
+                .addTo(map);
+            });
+
+
+            // Add the salespersons to the sidebar
+            var salespersonsList = document.getElementById('salespersons');
+            for (var name in salespersonData) {
+                console.log(name)
+              var div = document.createElement('div');
+              div.innerHTML = '<span style="color: ' + salespersonData[name].color + '">&#x25CF;</span> ' + name;
+              salespersonsList.appendChild(div);
+            }
+        });
+    </script>
+</body>
+
+</html>
