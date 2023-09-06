@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.7129, 39.6749]
+      },
+      "properties": {
+        "label": "United States"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.3468, 56.1304]
+      },
+      "properties": {
+        "label": "Canada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-102.5528, 24.6345]
+      },
+      "properties": {
+        "label": "Mexico"
+      }
+    }
+  ]
+}

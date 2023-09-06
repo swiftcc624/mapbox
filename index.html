@@ -72,6 +72,11 @@
           data: "merged_points.geojson",
         });
 
+        map.addSource("country-labels", {
+          type: "geojson",
+          data: "merged_country_points.geojson",
+        });
+
         map.addLayer({
           id: "merged",
           type: "fill",
@@ -85,6 +90,30 @@
               1,
               0,
             ],
+          },
+        });
+
+        map.addLayer({
+          id: "country-names",
+          type: "symbol",
+          source: "country-labels",
+          layout: {
+            "text-field": ["get", "label"], // Assuming 'name' is the property in your data source that has the state name
+            "text-size": 16,
+            "text-allow-overlap": false, // Ensures text doesn't overlap with other text
+            "text-ignore-placement": false, // Text will respect other text's placement
+            "symbol-placement": "point", // Will place labels based on a central point
+            "symbol-spacing": 250, // Increase or adjust for controlling space between repeated symbols/labels
+            "text-max-width": 8, // This can help in ensuring state names aren't broken up into multiple lines
+          },
+          paint: {
+            "text-color": "green",
+            // "text-opacity": [
+            //   "case",
+            //   ["boolean", ["feature-state", "hover"], false],
+            //   1,
+            //   0,
+            // ],
           },
         });
 
