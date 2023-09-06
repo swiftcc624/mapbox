@@ -1,98 +1,2117 @@
-{"type":"FeatureCollection", "features": [
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-114.4447198143842,55.627355974768136]},"properties":{"GID_1":"CAN.1_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"Alberta","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Province","ENGTYPE_1":"Province","CC_1":"48","HASC_1":"CA.AB","ISO_1":"CA-AB"},"id":1},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-124.38663868560131,55.81293823105865]},"properties":{"GID_1":"CAN.2_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"BritishColumbia","VARNAME_1":"Colombiebritannique|NewCaledon","NL_NAME_1":"NA","TYPE_1":"Province","ENGTYPE_1":"Province","CC_1":"59","HASC_1":"CA.BC","ISO_1":"CA-BC"},"id":2},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-97.94895347441278,55.61712494711766]},"properties":{"GID_1":"CAN.3_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"Manitoba","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Province","ENGTYPE_1":"Province","CC_1":"46","HASC_1":"CA.MB","ISO_1":"CA-MB"},"id":3},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-66.45208761029005,46.43947113030302]},"properties":{"GID_1":"CAN.4_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"NewBrunswick","VARNAME_1":"Nouveau-Brunswick|Acadia","NL_NAME_1":"NA","TYPE_1":"Province","ENGTYPE_1":"Province","CC_1":"13","HASC_1":"CA.NB","ISO_1":"CA-NB"},"id":4},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-62.11590388236066,53.94101863193174]},"properties":{"GID_1":"CAN.5_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"NewfoundlandandLabrador","VARNAME_1":"Newfoundland|Terre-Neuve|Terre-N","NL_NAME_1":"NA","TYPE_1":"Province","ENGTYPE_1":"Province","CC_1":"10","HASC_1":"CA.NF","ISO_1":"CA-NL"},"id":5},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.92063762304714,63.78791958475987]},"properties":{"GID_1":"CAN.6_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"NorthwestTerritories","VARNAME_1":"TerritoiresduNord-Ouest","NL_NAME_1":"NA","TYPE_1":"Territoire","ENGTYPE_1":"Territory","CC_1":"61","HASC_1":"CA.NT","ISO_1":"CA-NT"},"id":6},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-65.08525933195389,44.476415370013356]},"properties":{"GID_1":"CAN.7_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"NovaScotia","VARNAME_1":"Acadia|Nouvelle-Écosse","NL_NAME_1":"NA","TYPE_1":"Province","ENGTYPE_1":"Province","CC_1":"12","HASC_1":"CA.NS","ISO_1":"CA-NS"},"id":7},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-98.49039461333645,63.94573851494843]},"properties":{"GID_1":"CAN.8_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"Nunavut","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Territoire","ENGTYPE_1":"Territory","CC_1":"62","HASC_1":"CA.NU","ISO_1":"CA-NU"},"id":8},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-85.83822581349914,51.46637597263876]},"properties":{"GID_1":"CAN.9_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"Ontario","VARNAME_1":"UpperCanada","NL_NAME_1":"NA","TYPE_1":"Province","ENGTYPE_1":"Province","CC_1":"35","HASC_1":"CA.ON","ISO_1":"CA-ON"},"id":9},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-63.58604608141928,46.359820261584744]},"properties":{"GID_1":"CAN.10_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"PrinceEdwardIsland","VARNAME_1":"ÎledeSaint-Jean|ÎleduPrince-","NL_NAME_1":"NA","TYPE_1":"Province","ENGTYPE_1":"Province","CC_1":"11","HASC_1":"CA.PE","ISO_1":"CA-PE"},"id":10},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-72.74230972053576,52.13034872738712]},"properties":{"GID_1":"CAN.11_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"Québec","VARNAME_1":"LowerCanada","NL_NAME_1":"NA","TYPE_1":"Province","ENGTYPE_1":"Province","CC_1":"24","HASC_1":"CA.QC","ISO_1":"NA"},"id":11},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-105.94059822689992,54.50001361043261]},"properties":{"GID_1":"CAN.12_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"Saskatchewan","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Province","ENGTYPE_1":"Province","CC_1":"47","HASC_1":"CA.SK","ISO_1":"CA-SK"},"id":12},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-136.81404775812675,63.646457683779744]},"properties":{"GID_1":"CAN.13_1","GID_0":"CAN","COUNTRY":"Canada","NAME_1":"Yukon","VARNAME_1":"YukonTerritory|TerritoireduYu","NL_NAME_1":"NA","TYPE_1":"Territoire","ENGTYPE_1":"Territory","CC_1":"60","HASC_1":"CA.YT","ISO_1":"CA-YT"},"id":13},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-86.79647087046833,32.78594736628044]},"properties":{"GID_1":"USA.1_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Alabama","VARNAME_1":"AL|Ala.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.AL","ISO_1":"US-AL"},"id":14},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-154.00792237198928,65.93344828423815]},"properties":{"GID_1":"USA.2_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Alaska","VARNAME_1":"AK|Alaska","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.AK","ISO_1":"US-AK"},"id":15},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-111.62716241372016,34.252369125545485]},"properties":{"GID_1":"USA.3_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Arizona","VARNAME_1":"AZ|Ariz.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.AZ","ISO_1":"US-AZ"},"id":16},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-92.63458666264218,34.756094018719494]},"properties":{"GID_1":"USA.4_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Arkansas","VARNAME_1":"AR|Ark.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.AR","ISO_1":"US-AR"},"id":17},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-119.54681880124566,36.54407217226759]},"properties":{"GID_1":"USA.5_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"California","VARNAME_1":"CA|Calif.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.CA","ISO_1":"US-CA"},"id":18},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-105.54657558436294,38.998018152089614]},"properties":{"GID_1":"USA.6_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Colorado","VARNAME_1":"CO|Colo.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.CO","ISO_1":"US-CO"},"id":19},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-72.65712368821157,41.647445877715924]},"properties":{"GID_1":"USA.7_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Connecticut","VARNAME_1":"CT|Conn.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.CT","ISO_1":"US-CT"},"id":20},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.46483543623548,38.805750125680945]},"properties":{"GID_1":"USA.8_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Delaware","VARNAME_1":"DE|Del.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.DE","ISO_1":"US-DE"},"id":21},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.00790973391045,38.902017779255736]},"properties":{"GID_1":"USA.9_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"DistrictofColumbia","VARNAME_1":"DC|D.C.","NL_NAME_1":"NA","TYPE_1":"FederalDistrict","ENGTYPE_1":"FederalDistrict","CC_1":"NA","HASC_1":"US.DC","ISO_1":"US-DC"},"id":22},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-81.7809108281207,28.68008226694929]},"properties":{"GID_1":"USA.10_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Florida","VARNAME_1":"FL|Fla.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.FL","ISO_1":"US-FL"},"id":23},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-83.30209280811616,32.54417657690006]},"properties":{"GID_1":"USA.11_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Georgia","VARNAME_1":"GA|Ga.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.GA","ISO_1":"US-GA"},"id":24},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-155.52228991840016,19.6194005951804]},"properties":{"GID_1":"USA.12_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Hawaii","VARNAME_1":"HI|Hawaii","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.HI","ISO_1":"US-HI"},"id":25},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-114.96679923369958,43.74504910400062]},"properties":{"GID_1":"USA.13_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Idaho","VARNAME_1":"ID|Idaho","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.ID","ISO_1":"US-ID"},"id":26},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-89.18651796595736,40.26249414488272]},"properties":{"GID_1":"USA.14_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Illinois","VARNAME_1":"IL|Ill.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.IL","ISO_1":"US-IL"},"id":27},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-86.24743590225377,39.937406893664736]},"properties":{"GID_1":"USA.15_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Indiana","VARNAME_1":"IN|Ind.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.IN","ISO_1":"US-IN"},"id":28},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-93.50277028618291,42.05302261537591]},"properties":{"GID_1":"USA.16_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Iowa","VARNAME_1":"IA|Iowa","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.IA","ISO_1":"US-IA"},"id":29},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-98.37785364462997,38.500919602741426]},"properties":{"GID_1":"USA.17_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Kansas","VARNAME_1":"KS|Kans.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.KS","ISO_1":"US-KS"},"id":30},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-84.93109984365964,37.68240868621224]},"properties":{"GID_1":"USA.18_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Kentucky","VARNAME_1":"CommonwealthofKentucky|KY","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.KY","ISO_1":"US-KY"},"id":31},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-92.60953414416811,31.886486104065547]},"properties":{"GID_1":"USA.19_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Louisiana","VARNAME_1":"LA","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.LA","ISO_1":"US-LA"},"id":32},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-69.03449013871756,45.7257145538236]},"properties":{"GID_1":"USA.20_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Maine","VARNAME_1":"ME|Maine","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.ME","ISO_1":"US-ME"},"id":33},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-76.99514994032315,39.33938419340522]},"properties":{"GID_1":"USA.21_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Maryland","VARNAME_1":"MD","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.MD","ISO_1":"US-MD"},"id":34},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-71.91614918263254,42.36284534944953]},"properties":{"GID_1":"USA.22_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Massachusetts","VARNAME_1":"CommonwealthofMassachusetts|MA","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.MA","ISO_1":"US-MA"},"id":35},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-84.63263055580639,43.924296628942834]},"properties":{"GID_1":"USA.23_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Michigan","VARNAME_1":"MI|Mich.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.MI","ISO_1":"US-MI"},"id":36},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-94.57863580468172,46.65640895507253]},"properties":{"GID_1":"USA.24_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Minnesota","VARNAME_1":"MN|Minn.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.MN","ISO_1":"US-MN"},"id":37},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-89.66216350364756,32.82292884918471]},"properties":{"GID_1":"USA.25_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Mississippi","VARNAME_1":"MS|Miss.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.MS","ISO_1":"US-MS"},"id":38},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-92.7455247520825,38.362218755603905]},"properties":{"GID_1":"USA.26_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Missouri","VARNAME_1":"MO","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.MO","ISO_1":"US-MO"},"id":39},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-109.64628718058978,47.000423310872876]},"properties":{"GID_1":"USA.27_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Montana","VARNAME_1":"MT|Mont.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.MT","ISO_1":"US-MT"},"id":40},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.81078655434365,41.50043078777823]},"properties":{"GID_1":"USA.28_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Nebraska","VARNAME_1":"NE|Nebr.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.NE","ISO_1":"US-NE"},"id":41},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-116.59773907057026,39.43898293061723]},"properties":{"GID_1":"USA.29_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Nevada","VARNAME_1":"NV|Nev.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.NV","ISO_1":"US-NV"},"id":42},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-71.5879085416242,43.685547740543996]},"properties":{"GID_1":"USA.30_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"NewHampshire","VARNAME_1":"NH|N.H.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.NH","ISO_1":"US-NH"},"id":43},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-74.61495411358636,40.80951398291728]},"properties":{"GID_1":"USA.31_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"NewJersey","VARNAME_1":"NJ|N.J.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.NJ","ISO_1":"US-NJ"},"id":44},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-106.09921611141459,34.49737464839069]},"properties":{"GID_1":"USA.32_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"NewMexico","VARNAME_1":"NM|N.M.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.NM","ISO_1":"US-NM"},"id":45},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.13251114124311,43.36833523341761]},"properties":{"GID_1":"USA.33_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"NewYork","VARNAME_1":"NY|N.Y.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.NY","ISO_1":"US-NY"},"id":46},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.63826706978442,35.422251263540076]},"properties":{"GID_1":"USA.34_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"NorthCarolina","VARNAME_1":"NC|N.C.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.NC","ISO_1":"US-NC"},"id":47},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-100.47498540265332,47.47207911576429]},"properties":{"GID_1":"USA.35_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"NorthDakota","VARNAME_1":"ND|N.D.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.ND","ISO_1":"US-ND"},"id":48},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-82.87496108048735,40.25315088146553]},"properties":{"GID_1":"USA.36_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Ohio","VARNAME_1":"OH|Ohio","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.OH","ISO_1":"US-OH"},"id":49},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-97.4276539980206,35.41147372602684]},"properties":{"GID_1":"USA.37_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Oklahoma","VARNAME_1":"OK|Okla.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.OK","ISO_1":"US-OK"},"id":50},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-120.48553123188637,43.86708419684389]},"properties":{"GID_1":"USA.38_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Oregon","VARNAME_1":"OR|Ore.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.OR","ISO_1":"US-OR"},"id":51},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.8002554963763,40.86101792977045]},"properties":{"GID_1":"USA.39_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Pennsylvania","VARNAME_1":"CommonwealthofPennsylvania|PA","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.PA","ISO_1":"US-PA"},"id":52},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-71.60347939358417,41.69360904551324]},"properties":{"GID_1":"USA.40_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"RhodeIsland","VARNAME_1":"StateofRhodeIslandandProvid","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.RI","ISO_1":"US-RI"},"id":53},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.74611166460953,33.78916450240813]},"properties":{"GID_1":"USA.41_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"SouthCarolina","VARNAME_1":"SC|S.C.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.SC","ISO_1":"US-SC"},"id":54},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-100.23238950285707,44.47089113619539]},"properties":{"GID_1":"USA.42_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"SouthDakota","VARNAME_1":"SD|S.D.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.SD","ISO_1":"US-SD"},"id":55},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-86.34125421782535,35.81577808930652]},"properties":{"GID_1":"USA.43_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Tennessee","VARNAME_1":"TN|Tenn.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.TN","ISO_1":"US-TN"},"id":56},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-98.71319984890054,31.125998189580542]},"properties":{"GID_1":"USA.44_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Texas","VARNAME_1":"TX|Tex.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.TX","ISO_1":"US-TX"},"id":57},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-111.87697287569198,39.10061036269249]},"properties":{"GID_1":"USA.45_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Utah","VARNAME_1":"UT","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.UT","ISO_1":"US-UT"},"id":58},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-72.74380025399007,44.150243198667376]},"properties":{"GID_1":"USA.46_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Vermont","VARNAME_1":"VT","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.VT","ISO_1":"US-VT"},"id":59},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.32641513210423,37.6433081714052]},"properties":{"GID_1":"USA.47_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Virginia","VARNAME_1":"VA","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.VA","ISO_1":"US-VA"},"id":60},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-120.4304970152703,47.36892644190075]},"properties":{"GID_1":"USA.48_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Washington","VARNAME_1":"WA|Wash.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.WA","ISO_1":"US-WA"},"id":61},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.64614524354425,38.695165934793025]},"properties":{"GID_1":"USA.49_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"WestVirginia","VARNAME_1":"WV|W.Va.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.WV","ISO_1":"US-WV"},"id":62},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-89.46464157403614,44.35186082867466]},"properties":{"GID_1":"USA.50_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Wisconsin","VARNAME_1":"WI|Wis.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.WI","ISO_1":"US-WI"},"id":63},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-107.55097005318314,43.00081884307322]},"properties":{"GID_1":"USA.51_1","GID_0":"USA","COUNTRY":"UnitedStates","NAME_1":"Wyoming","VARNAME_1":"WY|Wyo.","NL_NAME_1":"NA","TYPE_1":"State","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"US.WY","ISO_1":"US-WY"},"id":64},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-102.34765421328952,22.004505030066476]},"properties":{"GID_1":"MEX.1_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Aguascalientes","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.AG","ISO_1":"MX-AGU"},"id":65},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-115.69288387179287,31.695043129541418]},"properties":{"GID_1":"MEX.3_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"BajaCalifornia","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.BN","ISO_1":"MX-BCN"},"id":66},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-111.5474285321802,25.1230779848242]},"properties":{"GID_1":"MEX.2_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"BajaCaliforniaSur","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.BS","ISO_1":"MX-BCS"},"id":67},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-90.19076313139293,18.679044739141634]},"properties":{"GID_1":"MEX.4_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Campeche","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.CM","ISO_1":"MX-CAM"},"id":68},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-92.6579877770461,16.366621056100833]},"properties":{"GID_1":"MEX.5_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Chiapas","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.CP","ISO_1":"MX-CHP"},"id":69},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-106.47359407685816,28.89951618563994]},"properties":{"GID_1":"MEX.6_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Chihuahua","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.CH","ISO_1":"MX-CHH"},"id":70},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-102.28865141254384,27.72615989181569]},"properties":{"GID_1":"MEX.7_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Coahuila","VARNAME_1":"CoahuiladeZaragoza","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.CA","ISO_1":"NA"},"id":71},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-103.92248280528361,19.193622211191023]},"properties":{"GID_1":"MEX.8_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Colima","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.CL","ISO_1":"MX-COL"},"id":72},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.16005747192365,19.271513553597874]},"properties":{"GID_1":"MEX.9_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"DistritoFederal","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"DistritoFederal","ENGTYPE_1":"FederalDistrict","CC_1":"NA","HASC_1":"MX.DF","ISO_1":"NA"},"id":73},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-104.87786172818568,24.95652945060491]},"properties":{"GID_1":"MEX.10_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Durango","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.DU","ISO_1":"MX-DUR"},"id":74},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-101.12933712179593,20.98600382829374]},"properties":{"GID_1":"MEX.11_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Guanajuato","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.GJ","ISO_1":"MX-GUA"},"id":75},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.79497037927412,17.711479922842408]},"properties":{"GID_1":"MEX.12_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Guerrero","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.GR","ISO_1":"MX-GRO"},"id":76},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.06270756200863,20.527123239358893]},"properties":{"GID_1":"MEX.13_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Hidalgo","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.HI","ISO_1":"MX-HID"},"id":77},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-103.64644382542944,20.376236441852154]},"properties":{"GID_1":"MEX.14_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Jalisco","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.JA","ISO_1":"MX-JAL"},"id":78},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.79525961160813,19.24589138051386]},"properties":{"GID_1":"MEX.15_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"México","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.MX","ISO_1":"NA"},"id":79},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-101.75247121023395,19.395111586199906]},"properties":{"GID_1":"MEX.16_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Michoacán","VARNAME_1":"MichoacándeOcampo","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.MC","ISO_1":"NA"},"id":80},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.11676137342553,18.76945901086573]},"properties":{"GID_1":"MEX.17_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Morelos","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.MR","ISO_1":"MX-MOR"},"id":81},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-104.91857916883598,21.940345044528712]},"properties":{"GID_1":"MEX.18_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Nayarit","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.NA","ISO_1":"MX-NAY"},"id":82},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.73718255827605,25.704234455250226]},"properties":{"GID_1":"MEX.19_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"NuevoLeón","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.NL","ISO_1":"NA"},"id":83},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-96.83406079883274,17.019822137451367]},"properties":{"GID_1":"MEX.20_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Oaxaca","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.OA","ISO_1":"MX-OAX"},"id":84},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-98.20782136033759,18.609588747538837]},"properties":{"GID_1":"MEX.21_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Puebla","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.PU","ISO_1":"MX-PUE"},"id":85},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.80225909792357,20.86168084102436]},"properties":{"GID_1":"MEX.22_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Querétaro","VARNAME_1":"QuerétarodeArteaga","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.QE","ISO_1":"NA"},"id":86},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-88.35250080200532,19.42951520514812]},"properties":{"GID_1":"MEX.23_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"QuintanaRoo","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.QR","ISO_1":"MX-ROO"},"id":87},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-100.57801085527244,22.30514706542048]},"properties":{"GID_1":"MEX.24_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"SanLuisPotosí","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.SL","ISO_1":"NA"},"id":88},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-107.76187933786719,25.53647438282563]},"properties":{"GID_1":"MEX.25_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Sinaloa","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.SI","ISO_1":"MX-SIN"},"id":89},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-110.57139159891253,29.751436521373023]},"properties":{"GID_1":"MEX.26_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Sonora","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.SO","ISO_1":"MX-SON"},"id":90},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-92.60866418036622,18.06579897906755]},"properties":{"GID_1":"MEX.27_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Tabasco","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.TB","ISO_1":"MX-TAB"},"id":91},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-98.65209630316005,24.113332317983442]},"properties":{"GID_1":"MEX.28_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Tamaulipas","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.TM","ISO_1":"MX-TAM"},"id":92},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-98.18366123008289,19.427774238995816]},"properties":{"GID_1":"MEX.29_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Tlaxcala","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.TL","ISO_1":"MX-TLA"},"id":93},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-96.61562130588045,19.10365560044042]},"properties":{"GID_1":"MEX.30_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Veracruz","VARNAME_1":"VeracruzdeIgnaciodelaLlave","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.VE","ISO_1":"NA"},"id":94},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-88.94065324463902,20.754380406791014]},"properties":{"GID_1":"MEX.31_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Yucatán","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.YU","ISO_1":"NA"},"id":95},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-103.08332099204509,23.25675135246827]},"properties":{"GID_1":"MEX.32_1","GID_0":"MEX","COUNTRY":"México","NAME_1":"Zacatecas","VARNAME_1":"NA","NL_NAME_1":"NA","TYPE_1":"Estado","ENGTYPE_1":"State","CC_1":"NA","HASC_1":"MX.ZA","ISO_1":"MX-ZAC"},"id":96}
-]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-114.4447198143842, 55.627355974768136]
+      },
+      "properties": {
+        "GID_1": "CAN.1_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "Alberta",
+        "STATE_NAME_1": "AB",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Province",
+        "ENGTYPE_1": "Province",
+        "CC_1": "48",
+        "HASC_1": "CA.AB",
+        "ISO_1": "CA-AB"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-124.38663868560131, 55.81293823105865]
+      },
+      "properties": {
+        "GID_1": "CAN.2_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "BritishColumbia",
+        "STATE_NAME_1": "BC",
+        "VARNAME_1": "Colombiebritannique|NewCaledon",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Province",
+        "ENGTYPE_1": "Province",
+        "CC_1": "59",
+        "HASC_1": "CA.BC",
+        "ISO_1": "CA-BC"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.94895347441278, 55.61712494711766]
+      },
+      "properties": {
+        "GID_1": "CAN.3_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "Manitoba",
+        "STATE_NAME_1": "MB",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Province",
+        "ENGTYPE_1": "Province",
+        "CC_1": "46",
+        "HASC_1": "CA.MB",
+        "ISO_1": "CA-MB"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-66.45208761029005, 46.43947113030302]
+      },
+      "properties": {
+        "GID_1": "CAN.4_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "NewBrunswick",
+        "STATE_NAME_1": "NB",
+        "VARNAME_1": "Nouveau-Brunswick|Acadia",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Province",
+        "ENGTYPE_1": "Province",
+        "CC_1": "13",
+        "HASC_1": "CA.NB",
+        "ISO_1": "CA-NB"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-62.11590388236066, 53.94101863193174]
+      },
+      "properties": {
+        "GID_1": "CAN.5_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "NewfoundlandandLabrador",
+        "STATE_NAME_1": "NL",
+        "VARNAME_1": "Newfoundland|Terre-Neuve|Terre-N",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Province",
+        "ENGTYPE_1": "Province",
+        "CC_1": "10",
+        "HASC_1": "CA.NF",
+        "ISO_1": "CA-NL"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.92063762304714, 63.78791958475987]
+      },
+      "properties": {
+        "GID_1": "CAN.6_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "NorthwestTerritories",
+        "STATE_NAME_1": "NT",
+        "VARNAME_1": "TerritoiresduNord-Ouest",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Territoire",
+        "ENGTYPE_1": "Territory",
+        "CC_1": "61",
+        "HASC_1": "CA.NT",
+        "ISO_1": "CA-NT"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.08525933195389, 44.476415370013356]
+      },
+      "properties": {
+        "GID_1": "CAN.7_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "NovaScotia",
+        "STATE_NAME_1": "NS",
+        "VARNAME_1": "Acadia|Nouvelle-Écosse",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Province",
+        "ENGTYPE_1": "Province",
+        "CC_1": "12",
+        "HASC_1": "CA.NS",
+        "ISO_1": "CA-NS"
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.49039461333645, 63.94573851494843]
+      },
+      "properties": {
+        "GID_1": "CAN.8_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "Nunavut",
+        "STATE_NAME_1": "NU",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Territoire",
+        "ENGTYPE_1": "Territory",
+        "CC_1": "62",
+        "HASC_1": "CA.NU",
+        "ISO_1": "CA-NU"
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.83822581349914, 51.46637597263876]
+      },
+      "properties": {
+        "GID_1": "CAN.9_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "Ontario",
+        "STATE_NAME_1": "ON",
+        "VARNAME_1": "UpperCanada",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Province",
+        "ENGTYPE_1": "Province",
+        "CC_1": "35",
+        "HASC_1": "CA.ON",
+        "ISO_1": "CA-ON"
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-63.58604608141928, 46.359820261584744]
+      },
+      "properties": {
+        "GID_1": "CAN.10_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "PrinceEdwardIsland",
+        "STATE_NAME_1": "PE",
+        "VARNAME_1": "ÎledeSaint-Jean|ÎleduPrince-",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Province",
+        "ENGTYPE_1": "Province",
+        "CC_1": "11",
+        "HASC_1": "CA.PE",
+        "ISO_1": "CA-PE"
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.74230972053576, 52.13034872738712]
+      },
+      "properties": {
+        "GID_1": "CAN.11_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "Québec",
+        "STATE_NAME_1": "QC",
+        "VARNAME_1": "LowerCanada",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Province",
+        "ENGTYPE_1": "Province",
+        "CC_1": "24",
+        "HASC_1": "CA.QC",
+        "ISO_1": "NA"
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.94059822689992, 54.50001361043261]
+      },
+      "properties": {
+        "GID_1": "CAN.12_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "Saskatchewan",
+        "STATE_NAME_1": "SK",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Province",
+        "ENGTYPE_1": "Province",
+        "CC_1": "47",
+        "HASC_1": "CA.SK",
+        "ISO_1": "CA-SK"
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-136.81404775812675, 63.646457683779744]
+      },
+      "properties": {
+        "GID_1": "CAN.13_1",
+        "GID_0": "CAN",
+        "COUNTRY": "Canada",
+        "NAME_1": "Yukon",
+        "STATE_NAME_1": "YT",
+        "VARNAME_1": "YukonTerritory|TerritoireduYu",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Territoire",
+        "ENGTYPE_1": "Territory",
+        "CC_1": "60",
+        "HASC_1": "CA.YT",
+        "ISO_1": "CA-YT"
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.79647087046833, 32.78594736628044]
+      },
+      "properties": {
+        "GID_1": "USA.1_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Alabama",
+        "STATE_NAME_1": "AL",
+        "VARNAME_1": "AL|Ala.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.AL",
+        "ISO_1": "US-AL"
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-154.00792237198928, 65.93344828423815]
+      },
+      "properties": {
+        "GID_1": "USA.2_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Alaska",
+        "STATE_NAME_1": "AK",
+        "VARNAME_1": "AK|Alaska",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.AK",
+        "ISO_1": "US-AK"
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.62716241372016, 34.252369125545485]
+      },
+      "properties": {
+        "GID_1": "USA.3_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Arizona",
+        "STATE_NAME_1": "AZ",
+        "VARNAME_1": "AZ|Ariz.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.AZ",
+        "ISO_1": "US-AZ"
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.63458666264218, 34.756094018719494]
+      },
+      "properties": {
+        "GID_1": "USA.4_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Arkansas",
+        "STATE_NAME_1": "AR",
+        "VARNAME_1": "AR|Ark.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.AR",
+        "ISO_1": "US-AR"
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.54681880124566, 36.54407217226759]
+      },
+      "properties": {
+        "GID_1": "USA.5_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "California",
+        "STATE_NAME_1": "CA",
+        "VARNAME_1": "CA|Calif.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.CA",
+        "ISO_1": "US-CA"
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.54657558436294, 38.998018152089614]
+      },
+      "properties": {
+        "GID_1": "USA.6_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Colorado",
+        "STATE_NAME_1": "CO",
+        "VARNAME_1": "CO|Colo.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.CO",
+        "ISO_1": "US-CO"
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.65712368821157, 41.647445877715924]
+      },
+      "properties": {
+        "GID_1": "USA.7_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Connecticut",
+        "STATE_NAME_1": "CT",
+        "VARNAME_1": "CT|Conn.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.CT",
+        "ISO_1": "US-CT"
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.46483543623548, 38.805750125680945]
+      },
+      "properties": {
+        "GID_1": "USA.8_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Delaware",
+        "STATE_NAME_1": "DE",
+        "VARNAME_1": "DE|Del.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.DE",
+        "ISO_1": "US-DE"
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.00790973391045, 38.902017779255736]
+      },
+      "properties": {
+        "GID_1": "USA.9_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "DistrictofColumbia",
+        "STATE_NAME_1": "DC",
+        "VARNAME_1": "DC|D.C.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "FederalDistrict",
+        "ENGTYPE_1": "FederalDistrict",
+        "CC_1": "NA",
+        "HASC_1": "US.DC",
+        "ISO_1": "US-DC"
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.7809108281207, 28.68008226694929]
+      },
+      "properties": {
+        "GID_1": "USA.10_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Florida",
+        "STATE_NAME_1": "FL",
+        "VARNAME_1": "FL|Fla.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.FL",
+        "ISO_1": "US-FL"
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.30209280811616, 32.54417657690006]
+      },
+      "properties": {
+        "GID_1": "USA.11_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Georgia",
+        "STATE_NAME_1": "GA",
+        "VARNAME_1": "GA|Ga.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.GA",
+        "ISO_1": "US-GA"
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-155.52228991840016, 19.6194005951804]
+      },
+      "properties": {
+        "GID_1": "USA.12_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Hawaii",
+        "STATE_NAME_1": "HI",
+        "VARNAME_1": "HI|Hawaii",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.HI",
+        "ISO_1": "US-HI"
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-114.96679923369958, 43.74504910400062]
+      },
+      "properties": {
+        "GID_1": "USA.13_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Idaho",
+        "STATE_NAME_1": "ID",
+        "VARNAME_1": "ID|Idaho",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.ID",
+        "ISO_1": "US-ID"
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.18651796595736, 40.26249414488272]
+      },
+      "properties": {
+        "GID_1": "USA.14_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Illinois",
+        "STATE_NAME_1": "IL",
+        "VARNAME_1": "IL|Ill.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.IL",
+        "ISO_1": "US-IL"
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.24743590225377, 39.937406893664736]
+      },
+      "properties": {
+        "GID_1": "USA.15_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Indiana",
+        "STATE_NAME_1": "IN",
+        "VARNAME_1": "IN|Ind.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.IN",
+        "ISO_1": "US-IN"
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.50277028618291, 42.05302261537591]
+      },
+      "properties": {
+        "GID_1": "USA.16_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Iowa",
+        "STATE_NAME_1": "IA",
+        "VARNAME_1": "IA|Iowa",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.IA",
+        "ISO_1": "US-IA"
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.37785364462997, 38.500919602741426]
+      },
+      "properties": {
+        "GID_1": "USA.17_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Kansas",
+        "STATE_NAME_1": "KS",
+        "VARNAME_1": "KS|Kans.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.KS",
+        "ISO_1": "US-KS"
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.93109984365964, 37.68240868621224]
+      },
+      "properties": {
+        "GID_1": "USA.18_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Kentucky",
+        "STATE_NAME_1": "KY",
+        "VARNAME_1": "CommonwealthofKentucky|KY",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.KY",
+        "ISO_1": "US-KY"
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.60953414416811, 31.886486104065547]
+      },
+      "properties": {
+        "GID_1": "USA.19_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Louisiana",
+        "STATE_NAME_1": "LA",
+        "VARNAME_1": "LA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.LA",
+        "ISO_1": "US-LA"
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.03449013871756, 45.7257145538236]
+      },
+      "properties": {
+        "GID_1": "USA.20_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Maine",
+        "STATE_NAME_1": "ME",
+        "VARNAME_1": "ME|Maine",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.ME",
+        "ISO_1": "US-ME"
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.99514994032315, 39.33938419340522]
+      },
+      "properties": {
+        "GID_1": "USA.21_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Maryland",
+        "STATE_NAME_1": "MD",
+        "VARNAME_1": "MD",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.MD",
+        "ISO_1": "US-MD"
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.91614918263254, 42.36284534944953]
+      },
+      "properties": {
+        "GID_1": "USA.22_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Massachusetts",
+        "STATE_NAME_1": "MA",
+        "VARNAME_1": "CommonwealthofMassachusetts|MA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.MA",
+        "ISO_1": "US-MA"
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.63263055580639, 43.924296628942834]
+      },
+      "properties": {
+        "GID_1": "USA.23_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Michigan",
+        "STATE_NAME_1": "MI",
+        "VARNAME_1": "MI|Mich.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.MI",
+        "ISO_1": "US-MI"
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-94.57863580468172, 46.65640895507253]
+      },
+      "properties": {
+        "GID_1": "USA.24_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Minnesota",
+        "STATE_NAME_1": "MN",
+        "VARNAME_1": "MN|Minn.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.MN",
+        "ISO_1": "US-MN"
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.66216350364756, 32.82292884918471]
+      },
+      "properties": {
+        "GID_1": "USA.25_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Mississippi",
+        "STATE_NAME_1": "MS",
+        "VARNAME_1": "MS|Miss.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.MS",
+        "ISO_1": "US-MS"
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.7455247520825, 38.362218755603905]
+      },
+      "properties": {
+        "GID_1": "USA.26_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Missouri",
+        "STATE_NAME_1": "MO",
+        "VARNAME_1": "MO",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.MO",
+        "ISO_1": "US-MO"
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-109.64628718058978, 47.000423310872876]
+      },
+      "properties": {
+        "GID_1": "USA.27_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Montana",
+        "STATE_NAME_1": "MT",
+        "VARNAME_1": "MT|Mont.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.MT",
+        "ISO_1": "US-MT"
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.81078655434365, 41.50043078777823]
+      },
+      "properties": {
+        "GID_1": "USA.28_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Nebraska",
+        "STATE_NAME_1": "NE",
+        "VARNAME_1": "NE|Nebr.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.NE",
+        "ISO_1": "US-NE"
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.59773907057026, 39.43898293061723]
+      },
+      "properties": {
+        "GID_1": "USA.29_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Nevada",
+        "STATE_NAME_1": "NV",
+        "VARNAME_1": "NV|Nev.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.NV",
+        "ISO_1": "US-NV"
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.5879085416242, 43.685547740543996]
+      },
+      "properties": {
+        "GID_1": "USA.30_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "NewHampshire",
+        "STATE_NAME_1": "NH",
+        "VARNAME_1": "NH|N.H.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.NH",
+        "ISO_1": "US-NH"
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.61495411358636, 40.80951398291728]
+      },
+      "properties": {
+        "GID_1": "USA.31_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "NewJersey",
+        "STATE_NAME_1": "NJ",
+        "VARNAME_1": "NJ|N.J.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.NJ",
+        "ISO_1": "US-NJ"
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.09921611141459, 34.49737464839069]
+      },
+      "properties": {
+        "GID_1": "USA.32_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "NewMexico",
+        "STATE_NAME_1": "NM",
+        "VARNAME_1": "NM|N.M.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.NM",
+        "ISO_1": "US-NM"
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.13251114124311, 43.36833523341761]
+      },
+      "properties": {
+        "GID_1": "USA.33_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "NewYork",
+        "STATE_NAME_1": "NY",
+        "VARNAME_1": "NY|N.Y.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.NY",
+        "ISO_1": "US-NY"
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.63826706978442, 35.422251263540076]
+      },
+      "properties": {
+        "GID_1": "USA.34_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "NorthCarolina",
+        "STATE_NAME_1": "NC",
+        "VARNAME_1": "NC|N.C.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.NC",
+        "ISO_1": "US-NC"
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.47498540265332, 47.47207911576429]
+      },
+      "properties": {
+        "GID_1": "USA.35_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "NorthDakota",
+        "STATE_NAME_1": "ND",
+        "VARNAME_1": "ND|N.D.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.ND",
+        "ISO_1": "US-ND"
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.87496108048735, 40.25315088146553]
+      },
+      "properties": {
+        "GID_1": "USA.36_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Ohio",
+        "STATE_NAME_1": "OH",
+        "VARNAME_1": "OH|Ohio",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.OH",
+        "ISO_1": "US-OH"
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.4276539980206, 35.41147372602684]
+      },
+      "properties": {
+        "GID_1": "USA.37_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Oklahoma",
+        "STATE_NAME_1": "OK",
+        "VARNAME_1": "OK|Okla.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.OK",
+        "ISO_1": "US-OK"
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.48553123188637, 43.86708419684389]
+      },
+      "properties": {
+        "GID_1": "USA.38_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Oregon",
+        "STATE_NAME_1": "OR",
+        "VARNAME_1": "OR|Ore.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.OR",
+        "ISO_1": "US-OR"
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.8002554963763, 40.86101792977045]
+      },
+      "properties": {
+        "GID_1": "USA.39_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Pennsylvania",
+        "STATE_NAME_1": "PA",
+        "VARNAME_1": "CommonwealthofPennsylvania|PA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.PA",
+        "ISO_1": "US-PA"
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.60347939358417, 41.69360904551324]
+      },
+      "properties": {
+        "GID_1": "USA.40_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "RhodeIsland",
+        "STATE_NAME_1": "RI",
+        "VARNAME_1": "StateofRhodeIslandandProvid",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.RI",
+        "ISO_1": "US-RI"
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.74611166460953, 33.78916450240813]
+      },
+      "properties": {
+        "GID_1": "USA.41_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "SouthCarolina",
+        "STATE_NAME_1": "SC",
+        "VARNAME_1": "SC|S.C.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.SC",
+        "ISO_1": "US-SC"
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.23238950285707, 44.47089113619539]
+      },
+      "properties": {
+        "GID_1": "USA.42_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "SouthDakota",
+        "STATE_NAME_1": "SD",
+        "VARNAME_1": "SD|S.D.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.SD",
+        "ISO_1": "US-SD"
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.34125421782535, 35.81577808930652]
+      },
+      "properties": {
+        "GID_1": "USA.43_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Tennessee",
+        "STATE_NAME_1": "TN",
+        "VARNAME_1": "TN|Tenn.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.TN",
+        "ISO_1": "US-TN"
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.71319984890054, 31.125998189580542]
+      },
+      "properties": {
+        "GID_1": "USA.44_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Texas",
+        "STATE_NAME_1": "TX",
+        "VARNAME_1": "TX|Tex.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.TX",
+        "ISO_1": "US-TX"
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.87697287569198, 39.10061036269249]
+      },
+      "properties": {
+        "GID_1": "USA.45_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Utah",
+        "STATE_NAME_1": "UT",
+        "VARNAME_1": "UT",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.UT",
+        "ISO_1": "US-UT"
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.74380025399007, 44.150243198667376]
+      },
+      "properties": {
+        "GID_1": "USA.46_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Vermont",
+        "STATE_NAME_1": "VT",
+        "VARNAME_1": "VT",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.VT",
+        "ISO_1": "US-VT"
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.32641513210423, 37.6433081714052]
+      },
+      "properties": {
+        "GID_1": "USA.47_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Virginia",
+        "STATE_NAME_1": "VA",
+        "VARNAME_1": "VA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.VA",
+        "ISO_1": "US-VA"
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.4304970152703, 47.36892644190075]
+      },
+      "properties": {
+        "GID_1": "USA.48_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Washington",
+        "STATE_NAME_1": "WA",
+        "VARNAME_1": "WA|Wash.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.WA",
+        "ISO_1": "US-WA"
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.64614524354425, 38.695165934793025]
+      },
+      "properties": {
+        "GID_1": "USA.49_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "WestVirginia",
+        "STATE_NAME_1": "WV",
+        "VARNAME_1": "WV|W.Va.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.WV",
+        "ISO_1": "US-WV"
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.46464157403614, 44.35186082867466]
+      },
+      "properties": {
+        "GID_1": "USA.50_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Wisconsin",
+        "STATE_NAME_1": "WI",
+        "VARNAME_1": "WI|Wis.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.WI",
+        "ISO_1": "US-WI"
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-107.55097005318314, 43.00081884307322]
+      },
+      "properties": {
+        "GID_1": "USA.51_1",
+        "GID_0": "USA",
+        "COUNTRY": "UnitedStates",
+        "NAME_1": "Wyoming",
+        "STATE_NAME_1": "WY",
+        "VARNAME_1": "WY|Wyo.",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "State",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "US.WY",
+        "ISO_1": "US-WY"
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-102.34765421328952, 22.004505030066476]
+      },
+      "properties": {
+        "GID_1": "MEX.1_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Aguascalientes",
+        "STATE_NAME_1": "AGU",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.AG",
+        "ISO_1": "MX-AGU"
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.69288387179287, 31.695043129541418]
+      },
+      "properties": {
+        "GID_1": "MEX.3_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "BajaCalifornia",
+        "STATE_NAME_1": "BCN",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.BN",
+        "ISO_1": "MX-BCN"
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.5474285321802, 25.1230779848242]
+      },
+      "properties": {
+        "GID_1": "MEX.2_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "BajaCaliforniaSur",
+        "STATE_NAME_1": "BCS",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.BS",
+        "ISO_1": "MX-BCS"
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.19076313139293, 18.679044739141634]
+      },
+      "properties": {
+        "GID_1": "MEX.4_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Campeche",
+        "STATE_NAME_1": "CAM",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.CM",
+        "ISO_1": "MX-CAM"
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.6579877770461, 16.366621056100833]
+      },
+      "properties": {
+        "GID_1": "MEX.5_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Chiapas",
+        "STATE_NAME_1": "CHP",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.CP",
+        "ISO_1": "MX-CHP"
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.47359407685816, 28.89951618563994]
+      },
+      "properties": {
+        "GID_1": "MEX.6_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Chihuahua",
+        "STATE_NAME_1": "CHH",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.CH",
+        "ISO_1": "MX-CHH"
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-102.28865141254384, 27.72615989181569]
+      },
+      "properties": {
+        "GID_1": "MEX.7_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Coahuila",
+        "STATE_NAME_1": "COA",
+        "VARNAME_1": "CoahuiladeZaragoza",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.CA",
+        "ISO_1": "NA"
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.92248280528361, 19.193622211191023]
+      },
+      "properties": {
+        "GID_1": "MEX.8_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Colima",
+        "STATE_NAME_1": "COL",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.CL",
+        "ISO_1": "MX-COL"
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.16005747192365, 19.271513553597874]
+      },
+      "properties": {
+        "GID_1": "MEX.9_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "DistritoFederal",
+        "STATE_NAME_1": "CDF",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "DistritoFederal",
+        "ENGTYPE_1": "FederalDistrict",
+        "CC_1": "NA",
+        "HASC_1": "MX.DF",
+        "ISO_1": "NA"
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.87786172818568, 24.95652945060491]
+      },
+      "properties": {
+        "GID_1": "MEX.10_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Durango",
+        "STATE_NAME_1": "DGO",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.DU",
+        "ISO_1": "MX-DUR"
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-101.12933712179593, 20.98600382829374]
+      },
+      "properties": {
+        "GID_1": "MEX.11_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Guanajuato",
+        "STATE_NAME_1": "GTO",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.GJ",
+        "ISO_1": "MX-GUA"
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.79497037927412, 17.711479922842408]
+      },
+      "properties": {
+        "GID_1": "MEX.12_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Guerrero",
+        "STATE_NAME_1": "GRO",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.GR",
+        "ISO_1": "MX-GRO"
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.06270756200863, 20.527123239358893]
+      },
+      "properties": {
+        "GID_1": "MEX.13_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Hidalgo",
+        "STATE_NAME_1": "HGO",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.HI",
+        "ISO_1": "MX-HID"
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.64644382542944, 20.376236441852154]
+      },
+      "properties": {
+        "GID_1": "MEX.14_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Jalisco",
+        "STATE_NAME_1": "JAL",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.JA",
+        "ISO_1": "MX-JAL"
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.79525961160813, 19.24589138051386]
+      },
+      "properties": {
+        "GID_1": "MEX.15_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "México",
+        "STATE_NAME_1": "MEX",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.MX",
+        "ISO_1": "NA"
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-101.75247121023395, 19.395111586199906]
+      },
+      "properties": {
+        "GID_1": "MEX.16_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Michoacán",
+        "STATE_NAME_1": "MIC",
+        "VARNAME_1": "MichoacándeOcampo",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.MC",
+        "ISO_1": "NA"
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.11676137342553, 18.76945901086573]
+      },
+      "properties": {
+        "GID_1": "MEX.17_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Morelos",
+        "STATE_NAME_1": "MOR",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.MR",
+        "ISO_1": "MX-MOR"
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.91857916883598, 21.940345044528712]
+      },
+      "properties": {
+        "GID_1": "MEX.18_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Nayarit",
+        "STATE_NAME_1": "NAY",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.NA",
+        "ISO_1": "MX-NAY"
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.73718255827605, 25.704234455250226]
+      },
+      "properties": {
+        "GID_1": "MEX.19_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "NuevoLeón",
+        "STATE_NAME_1": "NLE",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.NL",
+        "ISO_1": "NA"
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.83406079883274, 17.019822137451367]
+      },
+      "properties": {
+        "GID_1": "MEX.20_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Oaxaca",
+        "STATE_NAME_1": "OAX",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.OA",
+        "ISO_1": "MX-OAX"
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.20782136033759, 18.609588747538837]
+      },
+      "properties": {
+        "GID_1": "MEX.21_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Puebla",
+        "STATE_NAME_1": "PUE",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.PU",
+        "ISO_1": "MX-PUE"
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.80225909792357, 20.86168084102436]
+      },
+      "properties": {
+        "GID_1": "MEX.22_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Querétaro",
+        "STATE_NAME_1": "QRO",
+        "VARNAME_1": "QuerétarodeArteaga",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.QE",
+        "ISO_1": "NA"
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.35250080200532, 19.42951520514812]
+      },
+      "properties": {
+        "GID_1": "MEX.23_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "QuintanaRoo",
+        "STATE_NAME_1": "QROO",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.QR",
+        "ISO_1": "MX-ROO"
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.57801085527244, 22.30514706542048]
+      },
+      "properties": {
+        "GID_1": "MEX.24_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "SanLuisPotosí",
+        "STATE_NAME_1": "SLP",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.SL",
+        "ISO_1": "NA"
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-107.76187933786719, 25.53647438282563]
+      },
+      "properties": {
+        "GID_1": "MEX.25_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Sinaloa",
+        "STATE_NAME_1": "SIN",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.SI",
+        "ISO_1": "MX-SIN"
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.57139159891253, 29.751436521373023]
+      },
+      "properties": {
+        "GID_1": "MEX.26_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Sonora",
+        "STATE_NAME_1": "SON",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.SO",
+        "ISO_1": "MX-SON"
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.60866418036622, 18.06579897906755]
+      },
+      "properties": {
+        "GID_1": "MEX.27_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Tabasco",
+        "STATE_NAME_1": "TAB",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.TB",
+        "ISO_1": "MX-TAB"
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.65209630316005, 24.113332317983442]
+      },
+      "properties": {
+        "GID_1": "MEX.28_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Tamaulipas",
+        "STATE_NAME_1": "TAM",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.TM",
+        "ISO_1": "MX-TAM"
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.18366123008289, 19.427774238995816]
+      },
+      "properties": {
+        "GID_1": "MEX.29_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Tlaxcala",
+        "STATE_NAME_1": "TLA",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.TL",
+        "ISO_1": "MX-TLA"
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.61562130588045, 19.10365560044042]
+      },
+      "properties": {
+        "GID_1": "MEX.30_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Veracruz",
+        "STATE_NAME_1": "VER",
+        "VARNAME_1": "VeracruzdeIgnaciodelaLlave",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.VE",
+        "ISO_1": "NA"
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.94065324463902, 20.754380406791014]
+      },
+      "properties": {
+        "GID_1": "MEX.31_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Yucatán",
+        "STATE_NAME_1": "YUC",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.YU",
+        "ISO_1": "NA"
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.08332099204509, 23.25675135246827]
+      },
+      "properties": {
+        "GID_1": "MEX.32_1",
+        "GID_0": "MEX",
+        "COUNTRY": "México",
+        "NAME_1": "Zacatecas",
+        "STATE_NAME_1": "ZAC",
+        "VARNAME_1": "NA",
+        "NL_NAME_1": "NA",
+        "TYPE_1": "Estado",
+        "ENGTYPE_1": "State",
+        "CC_1": "NA",
+        "HASC_1": "MX.ZA",
+        "ISO_1": "MX-ZAC"
+      },
+      "id": 96
+    }
+  ]
+}

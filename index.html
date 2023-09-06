@@ -93,7 +93,7 @@
           type: "symbol",
           source: "state-labels",
           layout: {
-            "text-field": ["get", "NAME_1"], // Assuming 'name' is the property in your data source that has the state name
+            "text-field": ["get", "STATE_NAME_1"], // Assuming 'name' is the property in your data source that has the state name
             "text-size": 14,
             "text-allow-overlap": false, // Ensures text doesn't overlap with other text
             "text-ignore-placement": false, // Text will respect other text's placement
@@ -118,10 +118,10 @@
               { source: "merged", id: hoveredPolygonId },
               { hover: false }
             );
-            // map.setFeatureState(
-            //   { source: "state-labels", id: hoveredPolygonId },
-            //   { hover: false }
-            // );
+            map.setFeatureState(
+              { source: "state-labels", id: hoveredPolygonId },
+              { hover: false }
+            );
           }
 
           hoveredPolygonId = e.features[0].id;
@@ -130,10 +130,10 @@
             { source: "merged", id: hoveredPolygonId },
             { hover: true }
           );
-          // map.setFeatureState(
-          //   { source: "state-labels", id: hoveredPolygonId },
-          //   { hover: true }
-          // );
+          map.setFeatureState(
+            { source: "state-labels", id: hoveredPolygonId },
+            { hover: true }
+          );
 
           new mapboxgl.Popup()
             .setLngLat(e.lngLat)
