@@ -51,7 +51,7 @@
         // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
         // style: blankStyle,
         // style: "mapbox://styles/mapbox/light-v10",
-        style: "mapbox://styles/swiftai624/cllyubhfc009q01rf2ooh3w6g",
+        style: "mapbox://styles/swiftai624/clm9fbvyl013b01rc9pcvel72",
 
         // style: "mapbox://styles/mapbox/streets-v11",
         center: [-100.486052, 37.830348],
@@ -75,6 +75,17 @@
         map.addSource("country-labels", {
           type: "geojson",
           data: "merged_country_points.geojson",
+        });
+
+        map.addLayer({
+          id: "merged-background",
+          type: "fill",
+          source: "merged",
+          layout: {},
+          paint: {
+            "fill-color": "#eee",
+            "fill-outline-color": "#000",
+          },
         });
 
         map.addLayer({
